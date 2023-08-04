@@ -148,7 +148,7 @@ function validation (){
 
 function dontRebeat (){
     for( var i =0 ; i <signUpAll.length ; i++ ){
-        if(signUpAll[i].name == signUpName.value  ){
+        if(signUpAll[i].name == signUpName.value || signUpAll[i].email == signUpEmail.value || signUpAll[i].password == signUpPasswod.value ){
        console.log("This data already exists");
 
             return true ;
