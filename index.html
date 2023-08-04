@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="home">
+        <div class="Hitem">
+            <nav class="navbar navbar-expand-lg  bg-success fixed-top d-none ">
+                <div class="container-fluid px-5 mx-5 ">
+                  <a class="navbar-brand px-5 mx-5 fs-4 text-white" href="#">SMART LOGIN</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto px-5 mx-5 mb-2 mb-lg-0">
+                      <li class="nav-item px-5 mx-5">
+                        <button class="btn logOut btn-outline-warning">Log out</button>
+                      </li> 
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+            <div class="Home-data w-50 text-center  ">
+                <img src="pic/front.jpg" alt="">
+                <section class="home-text smart py-5 text-white text-center d-block  ">
+                    <h2 >Smart Login System</h2>
+                  </section>
+                <div id="logIn" class="container logIn d-flex flex-column position-absolute  p-5  d-block   ">
+                    <input class="form-control emailLogin my-3" type="text" placeholder="Enter Your Email">
+                    <input class="form-control passwordLogin my-3" type="password" placeholder="Enter Your Password">
+                    <button class="btn btnLogin btn-outline-info mt-4">Log in</button>
+                    <h4 class="my-3 text-white-50">Don’t have an account?<span id="play" class="signUpRblace text-white">Sign Up</span></h4>
+                </div>
+                <div id="signUp" class="my-data  container d-flex flex-column my-3 position-absolute p-5 d-none  ">
+                    <input class="form-control nameSignUp my-3" type="text" placeholder="Enter Your Name">
+                    <input class="form-control emaiSignUp my-3" type="text" placeholder="Enter Your Email">
+                    <input class="form-control passwordSignUp my-3" type="password" placeholder="Enter Your Password">
+                    <button class="btn signUpBtn btn-outline-info mt-4">Sign Up</button>
+                    <h4 class="my-3 text-white-50">you have an account?<span id="demo" class="signInRblace text-white">Signin</span></h4>
+                </div>
+                <div class="my-data welcome container d-flex flex-column my-3 position-absolute   p-5 text-white d-none ">
+                   <h1 id="welcomeName">Welcome mohamed </h1>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+

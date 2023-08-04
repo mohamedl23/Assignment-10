@@ -1,0 +1,48 @@
+.Hitem{
+    background-image: url(../pic/back.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Home-data{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative ;
+    box-shadow: 2px 2px 5px black;
+}
+.Home-data img{
+    width: 100%;
+    border: solid 5px rgba(255, 255, 255, 0.584); 
+}
+.home-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.signInRblace , .signUpRblace {
+    cursor: pointer;
+}
+@media screen and ( max-width:1200px ) {
+    .Home-data{
+        width: 100%;
+        height: 100%;
+    }
+    .Home-data img {
+        width: 450px;
+        height: 100%;
+    }
+}
